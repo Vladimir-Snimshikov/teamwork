@@ -1,23 +1,4 @@
-<<<<<<< HEAD
 
-.highway__images{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 ;
-  overflow: hidden;
-  padding-left: 120px;
-  gap: 40px;
-}
-
-.highway__image{
-  max-width: calc((100% - 140px)/2);
-  max-height: 100%;
-  object-fit: cover;
-  object-position: center;
-  position: relative;
-}
-=======
 @import url(./vendor/normalize.css);
 @import url(./vendor/font.css);
 
@@ -41,7 +22,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #222222;   
+    color: #222222;
     opacity: 0.7;
 }
 .link {
@@ -76,4 +57,21 @@
     font-size: 14px;
     line-height: 18px;
 }
->>>>>>> 9a3758677c087a91f5c0a9ec8bf1bff7022d8206
+
+.highway__images{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 ;
+  overflow: hidden;
+  padding-left: 120px;
+  gap: 40px;
+}
+
+.highway__image{
+  max-width: calc((100% - 140px)/2);
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
