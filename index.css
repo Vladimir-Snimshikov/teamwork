@@ -1,0 +1,18 @@
+
+.highway__images{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 ;
+  overflow: hidden;
+  padding-left: 120px;
+  gap: 40px;
+}
+
+.highway__image{
+  max-width: calc((100% - 140px)/2);
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
