@@ -10,6 +10,7 @@
     color: #151515;
 }
 .title {
+    margin: 60px 0 50px;
     font-weight: 700;
     font-size: 55px;
     line-height: 60px;
@@ -19,6 +20,7 @@
     /* пусть пока будет, но скорее всего симантически не понадобится */
 }
 .paragraph {
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -30,16 +32,22 @@
     color: #151515;
     /* тут потом еще другие общие стили будут */
 }
+.link:hover {
+    opacity: 0.75;
+    transition: opacity 0.3s linear;
+}
 
 .header {
     min-height: 74px;
     padding: 0 120px;
+    background-color: #F4F4F4;
     display: flex;
     justify-content: end;
     position: sticky;
     top:0;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 .header__burger {
     display: none;
@@ -60,8 +68,12 @@
     font-size: 14px;
     line-height: 18px;
 }
-<<<<<<< HEAD
+
 @media screen and (max-width: 767px) {
+    .header {
+        padding: 0 18px;
+        align-items: center;
+    }
     .header__links {
         display: none;
     }
@@ -69,12 +81,55 @@
         display: block;
         width: 22px;
         height: 19px;
-        background: url(../burger.svg) center/contain no-repeat;
+        background: url(./images/burger.svg) center/contain no-repeat;
     }
 }
-=======
-
-.highway__images{
+.about {
+    padding: 20px 0 0 120px;
+    display: grid;
+    grid-template-columns: minmax(360px, 460px) 1fr;
+    grid-template-rows: min-content 1fr;
+}
+.about__img-container {
+    grid-area: 1/2/3/2;
+    text-align: end;
+}
+.about__parapgraph {
+    margin-bottom: 50px;
+}
+.about__button {
+    width: 180px;
+    height: 50px;
+    margin-bottom:167px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    background: #24B47E linear-gradient(to right, #319E75, #319E75) 0 100%/0 100% no-repeat;
+    transition: background-size 0.5s ease-out;
+}
+.about__button:hover {
+    background-size: 100% 100%;
+}
+.about__model-name {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+.about__model-name::after {
+    content: "";
+    background-color: #D7D4D4;
+    display: inline-block;
+    width: 132px;
+    height: 2px;
+    margin: 0 0 0.25em 30px;
+}
+/* .highway__images{
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -90,5 +145,4 @@
   object-fit: cover;
   object-position: center;
   position: relative;
-}
->>>>>>> 9f4513b1e6b2f1f2afb2421659d2004b97876b63
+} */
