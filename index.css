@@ -1,0 +1,30 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/font.css);
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Inter', 'Arial', sans-serif;
+    background-color: #F4F4F4;
+    color: #151515;
+}
+.title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+}
+.subtitle {
+    /* пусть пока будет, но скорее всего симантически не понадобится */
+}
+.paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222222;   
+    opacity: 0.7;
+}
+.link {
+    text-decoration: none;
+    /* тут потом еще другие общие стили будут */
+}
