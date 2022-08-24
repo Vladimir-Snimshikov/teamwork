@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Велосипеды</title>
   <link rel="stylesheet" href="./index.css">
 </head>
+
 <body class="root">
 
   <header class="header">
@@ -19,24 +21,43 @@
   </header>
 
 
-<main class="content">
+  <main class="content">
 
-  <section></section>
-  <section></section>
-  <section class="highway">
-    <h2></h2>
-    <p></p>
-    <div class="highway__images">
-    <img src="./images/the road on the plain.png" class="highway__image" alt=" пустое шоссе на фоне скал">
-    <img src="./images/the road in the forest.png" class="highway__image" alt="велосипедист едет по лесной дороге">
-  </div>
-  </section>
-  <section></section>
-  <section></section>
+    <section></section>
+    <section></section>
+    <!--<section class="highway">
+      <h2></h2>
+      <p></p>
+      <div class="highway__images">
+        <img src="./images/the-road-on-the-plain.png" class="highway__image" alt=" пустое шоссе на фоне скал">
+        <img src="./images/the-road-in-the-forest.png" class="highway__image" alt="велосипедист едет по лесной дороге">
+      </div>
+    </section>-->
+    <section></section>
+    <section class="training">
+      <h2 class="training__title title">Тренировки</h2>
+      <p class="training__paragraph paragraph">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+        а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный
+        план.</p>
+      <img class="training__image" src="./images/training.png" alt="асфальтная дорога вдол деревьев">
+      <div class="training__links-bar">
+        <a class="training__link link" href="#">Strava</a>
+        <a class="training__link link" href="#">Komoot</a>
+      </div>
 
-</main>
+    </section>
 
-<footer class="footer"></footer>
+  </main>
+
+  <footer class="footer">
+    <form class="form">
+      <p class="form__container">
+        <label class="form__message" for="email">Подпишитесь на рассылку —</label>
+        <input class="form__email" type="email" name="email" id="email" placeholder="Ваш e-mail" required>
+      </p>
+    </form>
+    <p class="footer__copyright">© Road Club 2021</p>
+  </footer>
 
 </body>
 
