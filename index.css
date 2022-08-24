@@ -40,6 +40,9 @@
     left: 0;
     right: 0;
 }
+.header__burger {
+    display: none;
+}
 .header__links {
     padding: 0;
     margin: 0;
@@ -55,4 +58,15 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
+}
+@media screen and (max-width: 767px) {
+    .header__links {
+        display: none;
+    }
+    .header__burger {
+        display: block;
+        width: 22px;
+        height: 19px;
+        background: url(../burger.svg) center/contain no-repeat;
+    }
 }
