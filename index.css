@@ -127,7 +127,7 @@
 }
 .card__image {
     display: block;
-} 
+}
 .card__image_place_about {
     max-height: 260px;
     width: calc(100% - (2*100%/8.8));
@@ -172,7 +172,7 @@
     .title {
         font-size: 32px;
         line-height: 40px;
-    }    
+    }
     .about {
         grid-template-columns: minmax(260px, 460px) 1fr;
     }
@@ -276,6 +276,15 @@ margin: 12px 0 12px 16px;
   color: #222222;
   font-weight: 600;
 }
+.bicycles__cards{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
 
 /* секция training*/
 .training{
@@ -319,6 +328,7 @@ margin: 0;
   gap: 30px;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 
