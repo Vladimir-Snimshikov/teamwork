@@ -3,7 +3,6 @@
   padding-left: 120px;
   display: grid;
   grid-template-columns: 32vw 42vw;
-  ;
   grid-template-rows: 190px repeat(3, min-content);
   justify-content: space-between;
   position: relative;
