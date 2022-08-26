@@ -23,14 +23,13 @@
 
   <main class="content">
 
-    <section class="about">
+    <!--<section class="about">
       <h1 class="title about__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
       <div class="about__img-container">
         <img src="./images/about__road.png" alt="Велосипедист едет по грунтовой дороге лесистом склоне горы"
           class="about__image">
         <div class="about__stiker">
-          <img src="./images/about__bike.png" alt="Картинка велосипеда Cannondale Systemsix"
-            class="stiker__image">
+          <img src="./images/about__bike.png" alt="Картинка велосипеда Cannondale Systemsix" class="stiker__image">
         </div>
       </div>
       <div>
@@ -42,7 +41,19 @@
         <p class="about__model-name">Cannondale Systemsix</p>
       </div>
 
+    </section> -->
+    <section class="aboutt">
+      <h1 class="titlee aboutt__title">Шоссе, ТТ и Грэвел</h1>
+      <img class="aboutt__img" src="./images/about__road.png">
+      <p class="paragraph">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам — нужно только
+        определиться с выбором велосипеда и отправиться в путь.</p>
+      <button class=about__button>Подробнее</button>
+      <div class="bike-conteiner">
+        <img class="bike-conteiner__img" src="./images/about__bike.png">
+      </div>
+      <p class="about__model-name">Cannondale Systemsix</p>
     </section>
+
 
     <section class="Merks">
       <img src="./images/Merks__image.png" alt="Волосипедист едет по дороге на фоне холмов, покрытыми облаками"
@@ -71,10 +82,19 @@
         <img src="./images/the-road-in-the-forest.png" class="highway__image" alt="велосипедист едет по лесной дороге">
       </div>
     </section>
-    
+
     <section class="bicycles">
+      <form class="bicycle-selection">
+        <label class="title" for="bicycle-select">Велосипеды</label>
+        <select class="bicycle-selection__form" name="bicycle" id="bicycle-select">
+          <option value="Шоссе" selected>Шоссе</option>
+          <option value="Грэвел">Грэвел</option>
+          <option value="TT">TT</option>
+        </select>
+      </form>
       <div class="bicycles__header">
         <h2 class="title bicycles__title">Велосипеды</h2>
+
         <ul class="bicycles__links-bar">
           <li><a class="bicycles__link link bicycles__link_active " href="#">Шоссе</a></li>
           <li><a class="bicycles__link link " href="#">Грэвел</a></li>
@@ -82,28 +102,28 @@
         </ul>
       </div>
       <div class="bicycles__cards">
-      <figure class="card card_place_bicycles">
-        <div class="card__image-container">
-          <img src="./images/about__bike.png" alt="Картинка велосипеда Cannondale Systemsix"
-            class="card__image card__image_place_bicycles">
-        </div>
-        <figcaption class="card__subtitle">Cervelo Caledonia-5</figcaption>
-      </figure>
-      <figure  class="card card_place_bicycles">
-        <div class="card__image-container">
-          <img src="./images/about__bike.png" alt="Картинка велосипеда Cannondale Systemsix"
-            class="card__image card__image_place_bicycles">
-        </div>
-        <figcaption class="card__subtitle">Cannondale Systemsix Himod</figcaption>
-      </figure>
-      <figure  class="card card_place_bicycles">
-        <div class="card__image-container">
-          <img src="./images/about__bike.png" alt="Картинка велосипеда Cannondale Systemsix"
-            class="card__image card__image_place_bicycles">
-        </div>
-            <figcaption class="card__subtitle">Trek Domane SL-7</figcaption>
-      </figure>
-    </div>
+        <figure class="card card_place_bicycles">
+          <div class="card__image-container">
+            <img src="./images/Cervelo-Caledonia-5.png" alt="Картинка велосипеда Cervelo Caledonia-5"
+              class="card__image card__image_place_bicycles">
+          </div>
+          <figcaption class="card__subtitle">Cervelo Caledonia-5</figcaption>
+        </figure>
+        <figure class="card card_place_bicycles">
+          <div class="card__image-container card__image-container_hidden">
+            <img src="./images/Cannondale-Systemsix-Himod.png" alt="Картинка велосипеда Cannondale Systemsix Himod"
+              class="card__image card__image_place_bicycles">
+          </div>
+          <figcaption class="card__subtitle">Cannondale Systemsix Himod</figcaption>
+        </figure>
+        <figure class="card card_place_bicycles">
+          <div class="card__image-container">
+            <img src="./images/Trek-Domane-SL-7.png" alt="Картинка велосипеда Trek Domane SL-7"
+              class="card__image card__image_place_bicycles">
+          </div>
+          <figcaption class="card__subtitle">Trek Domane SL-7</figcaption>
+        </figure>
+      </div>
     </section>
 
     <section class="training">
@@ -128,6 +148,7 @@
       </p>
     </form>
     <p class="footer__copyright">© Road Club 2021</p>
+
   </footer>
 
 </body>
