@@ -1,0 +1,13 @@
+.bicycles__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px 0;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycles__cards {
+    margin-top: 20px;
+  }
+}

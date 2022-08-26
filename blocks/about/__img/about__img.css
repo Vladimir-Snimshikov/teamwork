@@ -1,0 +1,7 @@
+.about__img {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  object-fit: cover;
+  object-position: center;
+}

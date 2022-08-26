@@ -1,0 +1,17 @@
+.sticker {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  background-image: url(./images/sticker.svg);
+  width: 100px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .sticker {
+    bottom: 14px;
+    width: 70px;
+    background-size: contain;
+  }
+}

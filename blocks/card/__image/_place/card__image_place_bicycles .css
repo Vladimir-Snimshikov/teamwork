@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+  .card__image_place_bicycles {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}

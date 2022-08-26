@@ -1,0 +1,10 @@
+.training {
+  max-width: calc(100% - 240px);
+  padding: 150px 0 120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(284px, 460px) minmax(284px, 580px);
+  grid-template-rows: min-content 1fr min-content;
+  justify-content: space-between;
+
+}

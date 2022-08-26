@@ -1,0 +1,21 @@
+.about__model-name {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.about__model-name::after {
+  content: "";
+  background-color: #D7D4D4;
+  display: inline-block;
+  width: 132px;
+  height: 2px;
+  margin: 0 0 0.25em 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__model-name::after {
+    display: none;
+  }
+}

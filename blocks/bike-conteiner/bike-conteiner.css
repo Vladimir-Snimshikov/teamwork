@@ -1,0 +1,10 @@
+.bike-conteiner {
+  position: absolute;
+  max-width: 440px;
+  max-height: 430px;
+  height: 100%;
+  width: 33vw;
+  top: 294px;
+  right: 25.69vw;
+  z-index: 1;
+}

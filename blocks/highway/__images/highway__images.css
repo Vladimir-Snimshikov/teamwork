@@ -1,0 +1,13 @@
+.highway__images {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% + 20px);
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .highway__images {
+    width: 100%;
+  }
+}

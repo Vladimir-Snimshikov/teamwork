@@ -1,0 +1,16 @@
+.card__subtitle {
+  margin: 22px 0 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  .card__subtitle {
+    position: relative;
+    text-align: center;
+    bottom: 34px;
+    margin: 0;
+  }
+
+}

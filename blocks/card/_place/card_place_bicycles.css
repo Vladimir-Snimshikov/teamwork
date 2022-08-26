@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+  .card_place_bicycles {
+    display: none;
+  }
+
+  .card_place_bicycles:first-of-type {
+    display: block;
+  }
+
+}

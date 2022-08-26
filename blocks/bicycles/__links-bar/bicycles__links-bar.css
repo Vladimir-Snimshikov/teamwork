@@ -1,0 +1,13 @@
+.bicycles__links-bar {
+  margin: 0;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycles__links-bar {
+    display: none;
+  }
+}

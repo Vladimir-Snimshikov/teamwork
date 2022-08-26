@@ -1,0 +1,15 @@
+.sticker__vector {
+  width: 50px;
+  height: 16px;
+  background-image: url(./images/sticer__vector\ .svg);
+  margin: 12px 0 12px 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .sticker__vector {
+    width: 35px;
+    height: 12px;
+    margin: 8px 0 8px 11px;
+    background-size: contain;
+  }
+}

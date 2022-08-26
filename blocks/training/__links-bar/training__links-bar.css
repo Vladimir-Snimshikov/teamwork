@@ -1,0 +1,19 @@
+.training__links-bar {
+  align-self: end;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .training__links-bar {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

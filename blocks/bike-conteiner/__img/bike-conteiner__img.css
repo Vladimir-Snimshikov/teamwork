@@ -1,0 +1,13 @@
+.bike-conteiner__img {
+  background-color: #F4F4F4;
+  border-radius: 20px;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 440px;
+  min-width: 234px;
+  max-height: 300px;
+  min-height: 160px;
+  position: sticky;
+  top: 347px;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+}
